@@ -1,0 +1,16 @@
+<div class="m-calendar-table-body">
+
+    {{#each days}}
+        <a href="#" class="m-calendar-table-body__cell {{ modifier }}">
+            <span class="m-calendar-table-body__cell-date">
+                {{ this.date }}
+            </span>
+            <span class="m-calendar-table-body__cell-registration">
+                {{ this.registration }}
+            </span>
+            <span class="m-calendar-table-body__cell-status">
+                {{ this.status }}
+            </span>
+        </a>
+    {{/each}}
+</div>

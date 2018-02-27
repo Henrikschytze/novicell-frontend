@@ -1,0 +1,37 @@
+.m-calendar-table-body {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__cell {
+        flex-basis: calc(100%/7);
+        padding:15px;
+        text-align:center;
+        position:relative;
+        color: var(--color-text);
+        text-decoration:none;
+        border:1px solid var(--color-gray-light);
+
+        &--red {
+            color: var(--color-danger);
+        }
+        &--green {
+            color: var(--color-success);
+        }
+    }
+
+    &__cell-date {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-weight: bold;
+    }
+
+    &__cell-registration {
+        display: block;
+    }
+
+    &__cell-status {
+
+    }
+    
+}

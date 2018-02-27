@@ -1,0 +1,22 @@
+.m-calendar-header {
+    display: flex;
+    align-items: center;
+    
+    &__navigation {
+
+        flex-basis: 25%;
+
+        &--prev {
+
+            
+        }
+        &--next {
+            text-align: right;
+        }
+    }
+
+    &__title {
+        flex-basis: 50%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "Calendar Table Header",
+    "status": "prototype",
+    "context": {
+        "items": [
+            {
+                "label": "Måned total",
+                "value": "36.00"
+            },
+            {
+                "label": "Måned total",
+                "value": "36.00"
+            },
+            {
+                "label": "Måned total",
+                "value": "36.00"
+            },
+            {
+                "label": "Måned total",
+                "value": "36.00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "title": "Calendar Table Body",
+    "status": "prototype",
+    "context": {
+        "days": [
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": "m-calendar-table-body__cell--red"
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            },
+            {
+                "date": "1",
+                "registration": "7,5",
+                "status": "4 timer mangler",
+                "modifier": ""
+            }
+        ]
+    }
+}

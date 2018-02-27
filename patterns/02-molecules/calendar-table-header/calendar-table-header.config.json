@@ -1,0 +1,30 @@
+{
+    "title": "Calendar Table Header",
+    "status": "prototype",
+    "context": {
+        "days": [
+            {
+                "text": "Mandag"
+            },
+            {
+                "text": "Tirsdag",
+                "modifier": "m-calendar-table-header__cell--active"
+            },
+            {
+                "text": "Onsdag"
+            },
+            {
+                "text": "Torsdag"
+            },
+            {
+                "text": "Fredag"
+            },
+            {
+                "text": "Lørdag"
+            },
+            {
+                "text": "Søndag"
+            }
+        ]
+    }
+}

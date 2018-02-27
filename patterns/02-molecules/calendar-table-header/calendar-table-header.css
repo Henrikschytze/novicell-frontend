@@ -1,0 +1,13 @@
+.m-calendar-table-header {
+    display: flex;
+    
+    &__cell {
+        flex-basis: calc(100%/7);
+        text-align:center;
+        padding:15px;
+
+        &--active {
+            font-weight: bold;
+        }
+    }
+}

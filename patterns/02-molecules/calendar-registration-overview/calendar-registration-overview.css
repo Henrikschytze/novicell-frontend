@@ -1,0 +1,10 @@
+.m-calendar-registration-overview {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background: var(--color-gray-light);
+
+    &__item {
+        padding: 20px;
+    }
+}
