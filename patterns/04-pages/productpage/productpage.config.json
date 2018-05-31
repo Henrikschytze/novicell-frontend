@@ -1,0 +1,10 @@
+{
+    "title": "Productpage",
+    "status": "prototype",
+    "context": {
+        "niceImage":{
+            "url":"flaf.jpg",
+            "alt":"Dejligt billede"
+        }
+    }
+}

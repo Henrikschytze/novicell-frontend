@@ -1,0 +1,10 @@
+{
+    "title": "Productpage",
+    "status": "prototype",
+    "context": {
+        "niceImage":{
+            "url":"/dist/images/placeholder-images/jonathan-simcoe-88013.jpg",
+            "alt":"Dejligt billede"
+        }
+    }
+}

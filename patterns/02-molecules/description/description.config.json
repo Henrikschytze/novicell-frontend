@@ -1,0 +1,22 @@
+{
+    "title": "Description",
+    "status": "prototype",
+    "context": {
+        "headingCategory":{        
+          "text": "Hello World"
+      },
+      "headerPage":{
+          "text": "Header Page"
+      },    
+      "teaserText": {
+          "text": "Nulla egestas egestas est eget rutrum. Ut dapibus scelerisque interdum. Aenean eget dictum massa, sed posuere lacus. Donec nec libero elementum, semper arcu nec, pulvinar eros. Quisque aliquet congue nibh ut laoreet. Fusce vitae mauris non lorem interdum hendrerit vitae et enim. Phasellus interdum lectus tortor, sit amet semper neque rutrum et. Nullam blandit metus sit amet sagittis pulvinar. Pellentesque laoreet sapien sagittis, interdum magna et, laoreet arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec condimentum faucibus suscipit. Nullam suscipit magna arcu, ut porttitor dolor vulputate vitae. Praesent at finibus felis."       
+      },
+      "link": {
+          "url": "url",
+          "text": "Link text",
+          "target":"_blank",
+          "title": "Link title"
+      }
+    }
+  }
+    
