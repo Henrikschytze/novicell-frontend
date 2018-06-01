@@ -1,0 +1,10 @@
+{
+    "title": "Counter",
+    "status": "prototype",
+    "context": {
+        "counterBullet":{        
+            "text": "-"
+        }
+    }
+  }
+    
