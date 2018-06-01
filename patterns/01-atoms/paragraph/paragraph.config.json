@@ -10,6 +10,12 @@
             "context": {
                 "text": "Hero text"
             }
-        }
+            },
+            {
+                "name": "small",
+                "context": {                  
+                    "text": "small text"
+                }
+            }         
     ]
 }

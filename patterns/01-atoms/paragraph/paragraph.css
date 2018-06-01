@@ -3,7 +3,7 @@
 */
 
 /*Setting document variables*/
-
+:root{--paragraph-font-color: var(--font-color, #ccc);}
 .paragraph {
 
     &--hero {
@@ -13,5 +13,29 @@
             font-size: 21px;
         }
     }
+    &--small {
+        font-size: .9em;
+        margin: 0;
+        color: #ccc;
+        font-weight: 100;
+    }
 }
-
+.price {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+.price--member{
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #5F021F;
+}
+.dark{
+    color: #000;
+}
+.large{
+    font-size: 34px;
+    margin: 0;
+    font-weight: bold;
+}

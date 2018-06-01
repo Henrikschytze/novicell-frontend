@@ -1,0 +1,21 @@
+{
+    "title": "ProductPrice",
+    "status": "prototype",
+    "context": {
+        "beforeLabelPrice": {                  
+            "text": "Normalpris pr. kasse"
+        },
+        "labelPrice": {                  
+            "text": "Medlemtilbud pr. kasse"
+        },
+        "beforePrice": {                  
+            "text": "1103,95"
+        },
+        "price": {
+            "text": "599,95"
+        },
+        "memberPrice": {
+            "text": "Medlemsbesparelser 504 DKK"
+        }
+    }
+  }

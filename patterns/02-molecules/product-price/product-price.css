@@ -1,0 +1,7 @@
+.paragraph {
+    margin: 0;
+}
+.price--offer p {
+    display: inline-block;
+    border-bottom: 5px solid red;
+}

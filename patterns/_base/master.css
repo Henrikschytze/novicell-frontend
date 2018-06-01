@@ -43,6 +43,7 @@
 @import '../02-molecules/list-page-item/list-page-item.css';
 @import '../02-molecules/list-page-link/list-page-link.css';
 @import '../02-molecules/breadcrumb/breadcrumb.css';
+@import '../02-molecules/product-price/product-price.css';
 
 /* Organisms */
 @import '../03-organisms/footer/footer.css';

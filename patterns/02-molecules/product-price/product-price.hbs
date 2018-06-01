@@ -1,0 +1,19 @@
+<div class="row between-sm">
+    <div class="col-xs-6 col-sm-6">
+        {{> '@paragraph--small' labelPrice}}  
+        {{> '@paragraph' beforePrice modifier="price"}} 
+    </div>
+    <div class="col-xs-6 col-sm-6">
+        {{> '@paragraph--small' beforeLabelPrice class="dark"}}  
+        <div class="price--offer">                          
+        {{> '@paragraph' price class="large"}}   
+        </div>                         
+    </div>       
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        {{> '@paragraph' memberPrice modifier="price--member"}}    
+    </div>
+</div>
+
+
