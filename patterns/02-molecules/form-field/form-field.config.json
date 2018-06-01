@@ -72,6 +72,17 @@
 					"placeholder": "This is a textarea"
 				}	
 			}
+		},
+		{
+			"name": "counter",
+			"context": {
+				"counterMinus": {
+					"text": "-"
+				},
+				"counterPlus": {
+					"text": "+"
+				}
+			}
 		}
 	]
 }
