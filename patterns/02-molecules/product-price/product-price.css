@@ -1,7 +1,11 @@
 .paragraph {
     margin: 0;
 }
-.price--offer p {
+.price--offer .price--highlight {
     display: inline-block;
     border-bottom: 5px solid red;
+}
+
+.price--offer p {
+    display: inline-block;
 }

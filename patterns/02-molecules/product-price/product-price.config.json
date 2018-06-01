@@ -16,6 +16,9 @@
         },
         "memberPrice": {
             "text": "Medlemsbesparelser 504 DKK"
+        },
+        "afterLabelPrice": {                  
+            "text": "DKK"
         }
     }
   }

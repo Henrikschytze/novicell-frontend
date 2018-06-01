@@ -1,12 +1,16 @@
 <div class="row between-sm">
     <div class="col-xs-6 col-sm-6">
         {{> '@paragraph--small' labelPrice}}  
+        <div class="price--offer">   
         {{> '@paragraph' beforePrice modifier="price"}} 
+        {{> '@paragraph--small' afterLabelPrice}}  
+        </div>
     </div>
     <div class="col-xs-6 col-sm-6">
         {{> '@paragraph--small' beforeLabelPrice class="dark"}}  
         <div class="price--offer">                          
-        {{> '@paragraph' price class="large"}}   
+        {{> '@paragraph' price class="large price--highlight"}}  
+        {{> '@paragraph--small' afterLabelPrice class="dark "}}  
         </div>                         
     </div>       
 </div>
