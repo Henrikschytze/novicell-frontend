@@ -34,6 +34,7 @@
 @import '../02-molecules/box/text-box/text-box.css';
 @import '../02-molecules/form-field/form-field.css';
 @import '../02-molecules/link-list/link-list.css';
+@import '../02-molecules/tab-list/tab-list.css';
 @import '../02-molecules/navigation/nav-main-list/nav-main-list.css';
 @import '../02-molecules/navigation/nav-main-mobile/nav-main-mobile.css';
 @import '../02-molecules/navigation/nav-trigger/nav-trigger.css';

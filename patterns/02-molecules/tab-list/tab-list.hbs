@@ -1,0 +1,31 @@
+<div class="tab row">
+    {{#each list}}
+        <a class="tablinks col-xs col-sm center" onclick="openTab(event, {{ modifier }}">
+            {{ modifier }} hej
+        </a>
+    {{/each}}
+</ul>
+
+
+{{#each list}}
+    <div id="{{ modifier }}" class="tabcontent row">
+        <div class="col-xs col-sm">fhjsdfhjdsf</dov>
+    </div>
+{{/each}}
+
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>

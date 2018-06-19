@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function(){
     novicell.persistentField.init(); //Init persistentField
     novicell.slider.init(); 
     novicell.counter.init();
+    novicell.tabList.init();
     novicell.cookieInfo.init(); 
     console.log('it works!');
 });
