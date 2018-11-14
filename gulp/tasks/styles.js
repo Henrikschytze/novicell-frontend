@@ -1,6 +1,6 @@
 'use strict';
 
-const gulp = require('gulp');
+const { src, dest } = require('gulp');
 const config = require('../config.js');
 const mergeStream = require('merge-stream');
 const plugins = require('gulp-load-plugins')();
@@ -32,19 +32,17 @@ const postCssPlugins = [
       })
 ];
 
-gulp.task('styles', function () {
     const streams = config.bundles.filter(function (b) {
         return b.styles != null;
-    }).map(function (b) {
+    }).map(exports.default = function(b){
         console.log(b.name + ' post-CSS styles are compiling');
-        return gulp.src(b.styles)
+        return src(b.styles)
             .pipe(plugins.plumber(config.errorHandler('styles')))
             .pipe(plugins.sourcemaps.init())
             .pipe(plugins.postcss(postCssPlugins))
             .pipe(plugins.rename({ suffix: ".min", extname: ".css" }))
             .pipe(plugins.sourcemaps.write('.'))
-            .pipe(gulp.dest(config.stylesDist));
+            .pipe(dest(config.stylesDist));
     });
 
-    return mergeStream(streams);
-});
+// return mergeStream(streams);

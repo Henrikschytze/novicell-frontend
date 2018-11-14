@@ -36,29 +36,23 @@ var spriteConfig = {
     }
 };
 
-gulp.task('icons', function () {
-    var streams = config.bundles.filter(function (b) {
-        return b.icons != null;
-    }).map(function (b) {
-        var ignores = b.ignorePlugins != null ? b.ignorePlugins : [];
-
-        var useNewer = ignores.indexOf('newer') == -1;
-        var useImagemin = ignores.indexOf('imagemin') == -1;
-        var keepColors = b.keepColors != null ? b.keepColors : false;
-
-        // Keep colors settings - for multiple colored icons
-        var spriteConfigClone = JSON.parse(JSON.stringify(spriteConfig));
-        if(keepColors){
-            spriteConfigClone.shape.transform[0].svgo.plugins[1] = { removeAttrs: {attrs:'(transform.*)' } };
-        }
-
-        return gulp.src(b.icons)
-            .pipe(plugins.plumber(config.errorHandler('icons')))
-            .pipe(plugins.if(useImagemin, plugins.imagemin()))
-            .pipe(plugins.svgSprite(spriteConfigClone))
-            .pipe(plugins.rename(b.name + '.svg'))
-            .pipe(gulp.dest(config.iconsDist));
-    });
-
-    return mergeStream(streams);
+var streams = config.bundles.filter(function (b) {
+    return b.icons != null;
+}).map(exports.default = function (b) {
+    var ignores = b.ignorePlugins != null ? b.ignorePlugins : [];
+    var useNewer = ignores.indexOf('newer') == -1;
+    var useImagemin = ignores.indexOf('imagemin') == -1;
+    var keepColors = b.keepColors != null ? b.keepColors : false;
+    // Keep colors settings - for multiple colored icons
+    var spriteConfigClone = JSON.parse(JSON.stringify(spriteConfig));
+    if(keepColors){
+        spriteConfigClone.shape.transform[0].svgo.plugins[1] = { removeAttrs: {attrs:'(transform.*)' } };
+    }
+    console.log('Icons are being minified')
+    return gulp.src(b.icons)
+        .pipe(plugins.plumber(config.errorHandler('icons')))
+        .pipe(plugins.if(useImagemin, plugins.imagemin()))
+        .pipe(plugins.svgSprite(spriteConfigClone))
+        .pipe(plugins.rename(b.name + '.svg'))
+        .pipe(gulp.dest(config.iconsDist));
 });

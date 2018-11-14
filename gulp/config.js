@@ -117,13 +117,12 @@ module.exports = (function () {
             }
         ],
 
-
         // ------------- Tasks -------------
         loadTasks: [
-            "styles", "scripts", "images", "icons", "copy", "build", "favicons", "watch", "deploy", "fractal", "documentation"
+            "build", "styles", "images", "favicons", "icons"//, "scripts", "copy", "favicons", "watch", "deploy", "fractal", "documentation"
         ],
         buildTasks: [
-            "styles", "scripts", "images", "icons", "copy"
+            "build"//, "styles", "scripts", "images", "icons", "copy"
         ],
 
         // ------------- Return Paths -------------

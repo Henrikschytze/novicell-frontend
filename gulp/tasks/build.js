@@ -1,18 +1,21 @@
-'use strict';
+// console.log('this is a build task')
+
+// const config = require('../config.js');
+ const del = require('del');
+
 
 const gulp = require('gulp');
+const plugins = require('gulp-load-plugins')();
 const config = require('../config.js');
-const del = require('del');
-var plugins = require('gulp-load-plugins')();
+const {series} = require('gulp');
 
-gulp.task('clean', function () {
-    return del(config.cleanPaths, {force: true});
-});
+function clean(cb) {
+    del(config.cleanPaths, {force: true});
+    cb();
+}
 
-gulp.task('rebuild', ['clean'], function () {
-    return gulp.start('default');
-});
-
-gulp.task('default', function(){
-    return gulp.start(config.buildTasks);
-});
+function build(cb) {
+    //gulp.startconfig.buildTasks);
+    console.log('do build stuff');
+    cb();
+}

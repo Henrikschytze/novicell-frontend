@@ -7,7 +7,7 @@ const plugins = require('gulp-load-plugins')();
 
 
 // For more info: https://github.com/evilebottnawi/favicons
-gulp.task("favicons", function () {
+exports.default = (function () {
     return gulp.src(config.assetPath + "favicons/favicons-master.png")
     .pipe(plugins.plumber(config.errorHandler('favicons')))
     .pipe(favicons({
@@ -27,4 +27,4 @@ gulp.task("favicons", function () {
         replace: true
     }))
     .pipe(gulp.dest(config.faviconsPath));
-});
+})();

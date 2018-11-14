@@ -35,7 +35,7 @@ var compileScripts = function(isWatchTask){
             return false;
         }
 
-    }).map(function (b) {
+    }).map(exports.default = function (b) {
         console.log(b.name + ' scripts are compiling');
         var ignores = b.ignorePlugins != undefined ? b.ignorePlugins : [];
 
